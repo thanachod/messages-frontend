@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+.general-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.general-style > div {
+  width: 450px;
+  height: auto;
+  margin-bottom: 10px;
+  
+}
+.form-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feeds-header {
+  text-align: center;
+}
+
+.feeds-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+  
+}
+
+.feeds-style > div {
+  width: 450px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer{
+  text-align: center;
+}
+
+
+/* custom form */
+.form-textarea {
+  min-width: 400px;
+  
+}
