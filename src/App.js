@@ -37,7 +37,7 @@ function App() {
   
   
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/messages-frontend.onrender.com'>
     <UserContext.Provider value={providerValue}>
       <Routes>
         <Route path='/login' element={<Login />}/>
