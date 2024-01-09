@@ -15,7 +15,7 @@ import axios from 'axios';
 import Account from './pages/Account';
 import { useEffect, useMemo, useState } from 'react';
 import { UserContext } from './context/UserContext';
-axios.defaults.baseURL = 'https://messages-frontend.onrender.com'; //'http://localhost:4000'
+axios.defaults.baseURL = 'https://messages-cexd.onrender.com'; //'http://localhost:4000'
 axios.defaults.withCredentials = true; //not to include every time again.
 
 function App() {
